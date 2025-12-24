@@ -1,0 +1,69 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a1014;
+    color: #e9edef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Chat Container */
+.container {
+    background-color: #111b21;
+    width: 380px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.6);
+}
+
+/* Heading */
+h3 {
+    color: #25d366; /* WhatsApp green */
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Chat Info */
+p {
+    font-size: 14px;
+    color: #8696a0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Textarea (chat box style) */
+textarea {
+    width: 100%;
+    background-color: #202c33;
+    border: none;
+    border-radius: 10px;
+    color: #e9edef;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Button (WhatsApp style) */
+button {
+    margin-top: 12px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #25d366;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #20b954;
+}

@@ -1,0 +1,99 @@
+/* Page background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #d9fdd3, #ffffff); /* WhatsApp-style soft gradient */
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Page heading */
+h3 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #128C7E; /* WhatsApp dark green */
+  text-align: center;
+}
+
+/* Form box */
+form {
+  background: #fff;
+  width: 100%;
+  max-width: 450px;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid #e6e6e6;
+  animation: slideUp 0.5s ease; /* smooth entry animation */
+}
+
+/* Input + textarea styling */
+form input,
+form textarea {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 100%;
+  resize: none;
+  transition: border 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+  background: #f9f9f9;
+}
+
+/* Placeholder */
+form input::placeholder,
+form textarea::placeholder {
+  color: #888;
+}
+
+/* Focus effect */
+form input:focus,
+form textarea:focus {
+  border: 1px solid #25D366; /* WhatsApp green */
+  outline: none;
+  box-shadow: 0 0 6px rgba(37, 211, 102, 0.5);
+  background: #fff;
+}
+
+/* Textarea size */
+form textarea {
+  min-height: 120px;
+}
+
+/* Submit button */
+form button {
+  background: #25D366; /* WhatsApp green */
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.2s;
+}
+
+/* Button hover effect */
+form button:hover {
+  background: #20b558;
+  transform: scale(1.03);
+}
+
+/* Small animation for form */
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
