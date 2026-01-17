@@ -6,4 +6,4 @@ The backend is developed using Express.js, following RESTful routing principles,
 The front-end is rendered using EJS templates, enabling dynamic content display and seamless interaction between the server and client. Static assets such as CSS are served efficiently to provide a clean and user-friendly interface. The project demonstrates strong fundamentals in backend development, database operations, MVC-style structuring, and server-side rendering.
 
 Overall, this project serves as a practical learning implementation for understanding Express routing, MongoDB integration, RESTful APIs, and full-stack CRUD operations, making it a valuable addition to a developer’s portfolio and resume.
-<img width="943" height="637" alt="image" src="https://github.com/user-attachments/assets/9b8b4cad-06ed-4188-9abe-f871ec686ca3" />
+
